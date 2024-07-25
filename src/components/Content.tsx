@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import second from "../assets/images";
 
 function Content() {
   const [question, setQuestion] = useState(true);
@@ -42,10 +43,10 @@ function Content() {
   const [buttonText, setButtonText] = useState("Play Game ! ");
 
   const images = [
-    { src: "src/assets/images/fist.png", alt: "fist", word: "stone" },
-    { src: "src/assets/images/paper.png", alt: "paper", word: "paper" },
+    { src: "../assets/images/fist.png", alt: "fist", word: "stone" },
+    { src: "../assets/images/paper.png", alt: "paper", word: "paper" },
     {
-      src: "src/assets/images/scissors.png",
+      src: "",
       alt: "scissors",
       word: "scissors",
     },
@@ -140,7 +141,7 @@ function Content() {
           <div className="riddle_1_question naughtyDivCss">
             <img
               className="mikuImages"
-              src="src/assets/images/miku_naughty.png"
+              src="../assets/images/miku_naughty.png"
               alt="Congratulations"
             />
             <br />
