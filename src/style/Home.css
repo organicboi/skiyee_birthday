@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  font-family: monospace;
+}
+
+:root {
+  --primary-blue: #90e9ec;
+  --secondary-gray: #87919c;
+  --dark-black: #2f3437;
+  --light-white: #f5f7f8;
+}
+:root {
+  --margin-bottom-question: 18px;
+  --corner-radius-content-section: 18px;
+  --broder-content-section-question-box: 3px solid var(--dark-black);
+}
+
+.mikuImages {
+  width: 180px;
+  height: 180px;
+}
+
+button {
+  border-radius: var(--corner-radius-content-section);
+}
+/* Timer css */
+h1 {
+  padding-left: 20px;
+  margin-left: 20px;
+  color: var(--dark-black);
+  /* text-shadow: 0px 4px 4px var(--dark-black);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #45474b; */
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.counterCeleb {
+}
+
+.headingContainer {
+  padding-top: 6px;
+  display: flex;
+  flex: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--primary-blue);
+  border-bottom: #45474b 7px solid;
+}
+.celebrateDiv {
+  margin-right: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.celebrateBtn {
+  color: var(--light-white);
+  background-color: var(--secondary-gray);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #45474b;
+
+  font-size: 25px;
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+/* Timer css */
+
+/* Content css */
+.contentContainer {
+  font-family: monospace;
+  flex: 1;
+  background-color: var(--secondary-gray);
+  padding: 20px;
+  /* height: ; */
+}
+
+.riddle_common_css {
+  background-color: var(--primary-blue);
+  margin: 20px;
+}
+
+.riddle_1_div {
+}
+
+.naughtyDivCss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gameResultContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.riddle_1_question {
+  background-color: var(--primary-blue);
+  padding: 15px;
+  margin-bottom: var(--margin-bottom-question);
+  border-radius: var(--corner-radius-content-section);
+  border: var(--broder-content-section-question-box);
+}
+
+.riddle_1_option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--secondary-gray);
+}
+.riddle_option_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-blue);
+  height: 35px;
+  width: 100px;
+}
+
+.riddle_3_div {
+  border-radius: var(--corner-radius-content-section);
+  /* border: var(--broder-content-section-question-box); */
+}
+.riddle_3_box {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.circlePng {
+  width: 20px;
+  height: 20px;
+}
+.riddle_3_upper_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.scissors,
+.fist,
+.paper {
+  width: 50px;
+  height: 50px;
+}
+
+.stonePaperPlayBtn {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-color: var(--primary-blue);
+  height: 40px;
+  width: 100%;
+}
+
+.gameResultCss {
+  width: 50px;
+}
+
+input {
+  border-radius: var(--corner-radius-content-section);
+  border: var(--broder-content-section-question-box);
+  padding: 8px;
+  width: 200px;
+}
+.waitText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+/* Content css */
