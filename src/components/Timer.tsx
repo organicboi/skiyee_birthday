@@ -58,11 +58,7 @@ function Timer() {
         )}
       </h1>
       <div className="celebrateDiv">
-        <img
-          className="mikuImages"
-          src="src\assets\images\miku_celebrate.png"
-          alt=""
-        />
+        <img className="mikuImages" src=".\miku_celebrate.png" alt="" />
         <button className="celebrateBtn">Celebrate</button>
       </div>
     </div>

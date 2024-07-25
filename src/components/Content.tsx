@@ -42,10 +42,10 @@ function Content() {
   const [buttonText, setButtonText] = useState("Play Game ! ");
 
   const images = [
-    { src: ".assets/images/fist.png", alt: "fist", word: "stone" },
-    { src: ".assets/images/paper.png", alt: "paper", word: "paper" },
+    { src: "./fist.png", alt: "fist", word: "stone" },
+    { src: "./paper.png", alt: "paper", word: "paper" },
     {
-      src: "",
+      src: "./scissors.png",
       alt: "scissors",
       word: "scissors",
     },
@@ -140,7 +140,7 @@ function Content() {
           <div className="riddle_1_question naughtyDivCss">
             <img
               className="mikuImages"
-              src=".assets/images/miku_naughty.png"
+              src="./miku_naughty.png"
               alt="Congratulations"
             />
             <br />
