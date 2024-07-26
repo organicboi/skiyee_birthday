@@ -49,6 +49,7 @@ h1 {
   justify-content: space-around;
   background-color: var(--primary-blue);
   border-bottom: #45474b 7px solid;
+  overflow-x: hidden;
 }
 .celebrateDiv {
   margin-right: 8px;

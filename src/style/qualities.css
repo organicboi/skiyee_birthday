@@ -1,0 +1,60 @@
+.qualitesConatiner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  /* justify-content: center; */
+}
+.loveConatiner {
+  background-color: red;
+  color: antiquewhite;
+}
+
+.loveConatiner > h1 {
+  margin: 30px 30px 30px 0;
+  font-weight: bold;
+  color: rgb(195, 243, 5);
+}
+.adorableConatiner {
+  color: antiquewhite;
+
+  background-color: rgb(179, 0, 255);
+}
+
+.adorableConatiner > h1 {
+  margin: 30px 30px 30px 0;
+  font-weight: bold;
+  color: rgb(138, 255, 5);
+}
+.paragraph {
+  font-size: 15px;
+}
+
+.smileConatiner {
+  background-color: rgb(234, 255, 0);
+  color: black;
+}
+.smileConatiner > h1 {
+  margin: 30px 30px 30px 0;
+  font-weight: bold;
+  color: rgb(255, 5, 5);
+}
+
+.perfectContainer {
+  background-color: rgb(0, 136, 255);
+}
+
+.mikuImages {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  /* border: 3px solid gray; */
+}
+
+.qualitiesGoBackBtn {
+  color: black;
+  margin: 40px;
+  font-size: 20px;
+  padding: 15px;
+}

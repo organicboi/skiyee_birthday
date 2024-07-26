@@ -6,9 +6,9 @@ import "../style/Celebration.css";
 
 function Celebration() {
   const navigate = useNavigate();
-  //   const handleNavigation = (path) => {
-  //     navigate(path);
-  //   };
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
   const [celebrating, setCelebrating] = useState(true);
   const [flashing, setFlashing] = useState(true);
   const audioRef = useRef(null);
@@ -63,7 +63,7 @@ function Celebration() {
     <div className={`celebrationContainer ${flashing ? "disco" : ""}`}>
       {celebrating && <Confetti />}
       {celebrating && <Sparkle color="gold" count={500} />}
-      <h1>Celebration Page</h1>
+      <h1>Celebration</h1>
       <button className="celebrateBtn" onClick={handleCelebrate}>
         {celebrating ? "Stop Celebrating" : "Celebrate"}
       </button>
@@ -92,14 +92,17 @@ function Celebration() {
         >
           Perfect
         </button>
+        <br />
+        <button className="backBtn" onClick={handleGoBack}>
+          Go Back
+        </button>
       </div>
-      <button className="backBtn" onClick={handleGoBack}>
-        Go Back
-      </button>
-      <audio ref={audioRef} loop>
-        <source src="./celebration_song.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
+      <div>
+        <audio ref={audioRef} loop>
+          <source src="./celebration_song.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
     </div>
   );
 }
